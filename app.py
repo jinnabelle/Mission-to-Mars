@@ -2,10 +2,32 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 8,
-   "id": "78cbc04b",
+   "execution_count": 2,
+   "id": "69cb3b5f",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "[WDM] - ====== WebDriver manager ======\n",
+      "INFO:WDM:====== WebDriver manager ======\n",
+      "[WDM] - Current google-chrome version is 102.0.5005\n",
+      "INFO:WDM:Current google-chrome version is 102.0.5005\n",
+      "[WDM] - Get LATEST chromedriver version for 102.0.5005 google-chrome\n",
+      "INFO:WDM:Get LATEST chromedriver version for 102.0.5005 google-chrome\n",
+      "[WDM] - Driver [C:\\Users\\jinna\\.wdm\\drivers\\chromedriver\\win32\\102.0.5005.61\\chromedriver.exe] found in cache\n",
+      "INFO:WDM:Driver [C:\\Users\\jinna\\.wdm\\drivers\\chromedriver\\win32\\102.0.5005.61\\chromedriver.exe] found in cache\n"
+     ]
+    }
+   ],
    "source": [
     "from flask import Flask, render_template, redirect, url_for\n",
     "from flask_pymongo import PyMongo\n",
@@ -14,8 +36,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
-   "id": "28ba2e38",
+   "execution_count": 3,
+   "id": "457cddca",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -24,8 +46,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
-   "id": "a56b44d9",
+   "execution_count": 4,
+   "id": "108f3300",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -36,8 +58,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
-   "id": "faef5c55",
+   "execution_count": 5,
+   "id": "37e6d063",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -49,8 +71,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
-   "id": "23fd5e11",
+   "execution_count": 6,
+   "id": "92fbec0f",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -64,8 +86,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
-   "id": "17142595",
+   "execution_count": 1,
+   "id": "6bc6cc3b",
    "metadata": {},
    "outputs": [
     {
@@ -115,7 +137,8 @@
       "  File \"C:\\Users\\jinna\\anaconda3\\envs\\PythonData\\lib\\site-packages\\flask\\templating.py\", line 89, in _get_source_fast\n",
       "    raise TemplateNotFound(template)\n",
       "jinja2.exceptions.TemplateNotFound: index.html\n",
-      "INFO:werkzeug:127.0.0.1 - - [18/Jun/2022 16:31:26] \"\u001b[35m\u001b[1mGET / HTTP/1.1\u001b[0m\" 500 -\n"
+      "INFO:werkzeug:127.0.0.1 - - [18/Jun/2022 16:08:23] \"\u001b[35m\u001b[1mGET / HTTP/1.1\u001b[0m\" 500 -\n",
+      "INFO:werkzeug:127.0.0.1 - - [18/Jun/2022 16:08:23] \"\u001b[33mGET /favicon.ico HTTP/1.1\u001b[0m\" 404 -\n"
      ]
     }
    ],
@@ -123,6 +146,14 @@
     "if __name__ == \"__main__\":\n",
     "   app.run()"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "f90dc978",
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
